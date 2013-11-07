@@ -1,5 +1,7 @@
 <h1>It's For The Birds</h1>
 
+<p class="error">All tweets must be between 1 to 140 characters in length</p>
+
 <%= form_for @tweet do |f| %>
   <%= f.text_field :status %>
   <%= f.submit %>
